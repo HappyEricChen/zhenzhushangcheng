@@ -1,0 +1,45 @@
+//
+//  PrefixHeader.pch
+//  pearl
+//
+//  Created by huangmin on 22/04/2017.
+//  Copyright © 2017 Zhuyu. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// 导入第三方头文件
+#import <YYModel.h>
+#import <Masonry.h>
+#import <AFNetworking.h>
+#import <SDCycleScrollView.h>
+#import <UIScrollView+EmptyDataSet.h>
+#import <UIImageView+WebCache.h>
+#import <UIButton+WebCache.h>
+
+
+// 导入自定义分类头文件
+#import "UIImage+Extension.h"
+#import "UIView+Extension.h"
+#import "UIFont+Extension.h"
+#import "UIColor+Extension.h"
+#import "UICollectionView+Extension.h"
+#import "UICollectionViewCell+Extension.h"
+#import "NSString+Extension.h"
+#import "NSException+Extension.h"
+#import "NSMutableArray+Extension.h"
+#import "NSDictionary+Extension.h"
+#import "NSObject+Extension.h"
+#import "UICollectionReusableView+Extension.h"
+
+// 导入基类
+#import "BaseController.h"
+#import "BaseCollectionView.h"
+
+// 宏
+#import "Macro.h"
+
+
+
+#endif /* PrefixHeader_pch */
